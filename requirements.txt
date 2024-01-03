@@ -1,0 +1,11 @@
+asgiref==3.7.2
+dj-database-url==2.1.0
+Django==5.0.1
+gunicorn==21.2.0
+packaging==23.2
+pillow==10.2.0
+psycopg-binary==3.1.16
+psycopg2-binary==2.9.9
+pyotp==2.9.0
+sqlparse==0.4.4
+typing_extensions==4.9.0

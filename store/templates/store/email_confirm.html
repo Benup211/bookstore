@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Confirmation</title>
+</head>
+<body>
+    <h1>Email Confirmation</h1>
+    <p>Hello {{ user.username }},</p>
+    <p>Thank you for registering. Please click the link below to confirm your email address:</p>
+    <p><a href="{{ confirm_url }}">Confirm Email</a></p>
+    <p>If you didn't register an account on our website, you can safely ignore this email.</p>
+</body>
+</html>
