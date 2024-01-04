@@ -47,7 +47,7 @@ def email_confirmation(user,email_token):
     subject="Confirm Your Email"
     message=render_to_string('store/email_confirm.html',{
         'user':user,
-        'confirm_url':f'http://127.0.0.1:8000/confirm-email/{email_token}/'
+        'confirm_url':f'http://merobook.onrender.com//confirm-email/{email_token}/'
     })
     from_email = settings.EMAIL_HOST_USER
     to_email = user.email
